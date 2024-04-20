@@ -11,7 +11,7 @@ function preload() {
   ) {
     baseUrl = "http://localhost:3000";
   } else {
-    baseUrl = "https://seuservidor.com";
+    baseUrl = "https://one-api-jwr7.onrender.com/";
   }
 
   loadJSON(`${baseUrl}/cities`, (data) => {
